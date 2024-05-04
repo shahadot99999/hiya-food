@@ -16,44 +16,45 @@
   </head>
   <body>
     <!-- Header Navbar start -->
-    <nav class="hello_world navbar navbar-expand-lg ">
+  
+    <nav class=" hello_world navbar  navbar-expand-lg navbar-light p-3">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">hiya food</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <ul class="nav navbar-right justify-content-center">
-          <li class="nav-item">
-            <a class="nav-link active" href="#">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">About Us</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Menu</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Testimonial</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Contact Us</a>
-          </li>
-          
-        </ul>
-
-        <ul class="nav nav-end justify-content-end">
-         
-          <li class="nav-item">
-            <a class="nav-link" href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#"><i class="fa-solid fa-cart-shopping"></i></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link  rounded-pill" id="sign" href="#">Sign in</a>
-          </li>
-         
-        </ul>
+    
+        <div class=" collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class=" navbar-nav  ms-auto ">
+            <li class="nav-item">
+              <a class="nav-link mx-2 active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mx-2" href="#">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mx-2" href="#">Menu</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mx-2" href="#">Testimonial</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mx-2" href="#">Contact Us</a>
+            </li>
+          </ul>
+          <ul class="navbar-nav ms-auto d-none d-lg-inline-flex">
+            <li class="nav-item mx-2">
+              <a class="nav-link text-dark h5" href="" target="blank"><i class="fa-solid fa-magnifying-glass"></i></a>
+            </li>
+            <li class="nav-item mx-2">
+              <a class="nav-link text-dark h5" href="" target="blank"><i class="fa-solid fa-cart-shopping"><span class="badge text-white" id="notification">2</span></i></a>
+            </li>
+            <li class="nav-item mx-2">
+              <a class="nav-link rounded-pill text-white h5" id="sign" href="" target="blank">Sign in</a>
+            </li>
+           
+          </ul>
+        </div>
       </div>
     </nav>
     <!-- Header Navbar End -->
