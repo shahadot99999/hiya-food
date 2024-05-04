@@ -1,0 +1,20 @@
+/* navbar start */
+
+.hello_world{
+    background-color: rgb(253, 223, 223);
+}
+
+.nav.navbar-right li a {
+    color: black;
+}
+
+.nav.nav-end li a{
+    color: black;
+}
+#sign{
+    color: #fff;
+    background-color: 	#d2691e;
+    border-color:#d2691e;
+ 
+}
+/* navbar end */
