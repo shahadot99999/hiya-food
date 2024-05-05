@@ -4,13 +4,7 @@
     background-color: rgb(253, 223, 223);
 }
 
-/* .nav.navbar-right li a {
-    color: black;
-}
 
-.nav.nav-end li a{
-    color: black;
-} */
 #sign{
     color: #fff;
     background-color: 	#d2691e;
@@ -26,3 +20,20 @@
      
 }
 /* navbar end */
+/* Welcome hiya food start */
+
+.welcomefood{
+    background-color: #fae9dd;
+}
+
+.hiyafood{
+    color: #d2691e;
+  
+}
+.orderfood{
+    color: #fff;
+    background-color: 	#d2691e;
+    font-size: 25px;
+    padding: 10px 20px;
+}
+/* Welcome hiya food end */
