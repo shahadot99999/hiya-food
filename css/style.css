@@ -40,7 +40,25 @@
 .orderfood{
     color: #fff;
     background-color: 	#d2691e;
-    font-size: 25px;
+    font-size: 15px;
     padding: 10px 20px;
 }
 /* Welcome hiya food end */
+
+/* Food with a New Passion start  */
+
+.features{
+    background-color: #fcfcfc;
+}
+.headlinetext{
+    color: #d2691e; 
+}
+
+.qualityfood{
+    color: #e5faeb;
+    background-color: 	#d2691e;
+    border-color:#d2691e;
+    padding:2px;
+    /* font-size:.5rem; */
+}
+/* Food with a New Passion end */
