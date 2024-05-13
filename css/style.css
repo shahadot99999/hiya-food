@@ -20,22 +20,16 @@
      
 }
 /* navbar end */
+
 /* Welcome hiya food start */
 
 .welcomefood{
     background-color: #fae9dd;
-    /* display: flex;
-    flex-wrap: wrap;  */
+    
 }
 
-/* .img {
-    max-width: 100%;
-    height: auto;
-  } */
-
 .hiyafood{
-    color: #d2691e;
-  
+    color: #d2691e;  
 }
 .orderfood{
     color: #fff;
@@ -59,6 +53,12 @@
     background-color: 	#d2691e;
     border-color:#d2691e;
     padding:2px;
-    /* font-size:.5rem; */
+    
 }
 /* Food with a New Passion end */
+
+/* Treaty full food start */
+.treaty{
+    background-color: #ffe9e9;
+}
+/* Treaty full food End */
