@@ -62,9 +62,21 @@
     background-color: #ffe9e9;
 }
 /* Treaty full food End */
+
+/* User interface start */
 .fontuser{
         font-size: 60px;  
 }
+
 .userinterface{
 background-color:#defde7; 
 }
+
+/* User unterface End */
+
+/* Contact with your comment start */
+
+#inputtype{
+    background-color: #fdf8f2;
+}
+/* Contact with your comment End */
